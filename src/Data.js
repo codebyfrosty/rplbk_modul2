@@ -1,3 +1,5 @@
+// ini data yang dikirim pada function pencarian
+// 
 export const data = [
   {
     nama_lengkap: 'Fiki Rilo Pambudi',
