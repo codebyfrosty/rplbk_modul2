@@ -1,6 +1,7 @@
-body {
+* {
   padding: 0;
   border: 0;
+  box-sizing: border-box;
 }
 
 input {
@@ -13,8 +14,18 @@ input {
   font-size: 25px;
   text-align: center;
 }
-
-.card {
+.results{
+  padding-bottom: 3rem;
+}
+ul{
+  text-align: left;
+  list-style-type: none;
+  list-style-position: inside;
+}
+ul li{
+  padding: 5px;
+}
+/* .card {
   border: 0;
   border-radius: 3px;
   color: #666;
@@ -22,15 +33,70 @@ input {
   font-size: 20px;
   outline: none;
   width: 10%;
+  height: auto;
   margin: auto;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   width: 50%;
   padding: 1rem;
   border-radius: 1rem;
+} */
+
+
+.profile-card{
+  overflow: auto;
+  background-color: white;
+  width: 30%;
+  height: auto;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px 10px rgb(168, 168, 168);
 }
 
-ul {
-  list-style-type: none;
+.card-header{
+  margin: auto;
+  padding: 30px;
+}
+
+.img-profile{
+  position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+}
+.img-profile img {
+   width: 100%;
+   height: auto;
+ }
+
+.card-body{
+  padding: 1.5rem;
+ }
+
+.card-footer{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    height: 50px;
+}
+.medsos{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding: auto;
+}
+.medsos p{
+  margin-left: 10px;
+}
+.medsos img{
+  width: 30px;
+  height: 30px;
+}
+.medsos svg{
+  width: 30px;
+  height: 30px;
 }
 
 input {
@@ -42,4 +108,9 @@ input {
   font-size: 20px;
   outline: none;
   width: 25%;
+}
+
+td{
+  text-align: left;
+  padding-left: 10px;
 }

@@ -1080,6 +1080,7 @@ export const data = [
     tanggal_lahir: '10/25/2001',
     nim: ['21120119130111'],
     email: 'peggyrzpan25@gmail.com',
+    hobi: 'Tidur'
   },
   {
     nama_lengkap: 'Fitri Mardiana',
